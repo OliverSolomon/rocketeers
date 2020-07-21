@@ -1,0 +1,96 @@
+.ceo{
+    margin: auto;
+    max-width: 1100px;
+}
+
+.ceo-post{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.exec-imgs img{
+    width: 60%;
+}
+
+.team-member{
+
+}
+
+.post4team{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    text-align: center;
+    margin: 3em auto;
+}
+
+.post4team img{
+    width: 70%;
+}
+
+.ceo h1, .post4team h3{
+    color: #002ba2;
+    /* text-align: center; */
+}
+
+.group-photo{
+    text-align: center;
+}
+
+.group-photo img{
+    width: 90%;
+}
+
+.group-photo p{
+    font-size: .8rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width:754px){
+    .ceo{
+        display: flex;
+        margin: auto 2em;
+        /* border: #002ba2 2px solid; */
+    }
+    .ceo img{
+        /* border: #002ba2 2px solid; */
+        margin: 0;
+    }
+    .team-member{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+    }
+    .post4team{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        margin: 1em auto;
+        /* border: 2px solid red; */
+    }
+    .img-div{
+        width: 30%;
+        /* border: 2px solid red; */
+    }
+    /* .post4team h3{
+        margin: 0;
+    } */
+    .post4team p{
+        /* border: 2px solid blue; */
+        width: 85%;
+        padding: 1em;
+    }
+    .group-photo img{
+        max-width: 700px;
+        margin-top: 2em;
+        width: 70%;
+    }
+}
+
+@media (min-width:1100px){
+    .group-photo img{
+        margin-top: 4em;
+        width: 50%;
+    }
+}

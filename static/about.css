@@ -1,0 +1,165 @@
+header{
+    color: #fff;
+    /* border: 2px solid red; */
+    margin: 0;
+}
+
+.landing{
+    background: url(imgs/about\ landing.png) no-repeat;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    /* margin: 0 0 3em 0; */
+}
+
+nav ul li{
+    border: 2px solid rgba(255, 255, 255, 0.01);
+}
+
+@media (min-width:1100px){
+    .landing{
+        background: url(imgs/about\ landing.png) no-repeat center;
+    }
+}
+
+/* .content{
+    transform: translate(0%, 150%);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} */
+
+.aboutContent{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 2em;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+}
+
+.aim{
+    margin-top: 2em;
+}
+
+.aim div{
+    width: 80%;
+    margin: 2em auto;
+    border: #FFF 1px solid;
+    padding: 1em;
+}
+
+.aim div p{
+    margin-top: .6em;
+    text-align: left;
+}
+
+@media (min-width:400px){
+    .about{
+        margin: 3em auto;
+    }
+    .aim{
+        margin-top: 7em;
+    }
+    .aim div{
+        margin: 3em auto;
+    }
+    .aim div p{
+        margin-top: 1.2em;
+    }
+}
+
+@media (min-width:650px){
+    .landing{
+        height: 80vh;
+    }
+    .about{
+        width: 60%;
+        transform: translate(0 ,250%);
+    }
+    .aim{
+        transform: translate(0 ,50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .aim div{
+        width: 35%;
+        padding: 2em;
+    }
+}
+
+@media (min-width:1100px){
+    .landing{
+        height: 100vh;
+    }
+    .about{
+        font-size: 1rem;
+        width: 35%;
+    }
+    .aim div{
+        width: 30%;
+        padding: 2em;
+    }
+} 
+
+/*###################  form styling*/
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3em;
+    /* height: 45vh; */
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+form h2{
+    font-family: Agency;
+    font-size: 2rem;
+    color: #002ba2;
+    margin: 2em 0 1em 0;
+}
+
+input[type=email]{
+    width: 70%;
+    margin: 1em;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 20vh;
+}
+
+input[type=submit] {
+    background-color: #a80e4c;
+    color: white;
+    margin-top: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* float: right; */
+}
+
+input[type=submit]:hover {
+    background-color:#711ede;
+}
+
+@media (min-width:1000px){
+    input[type=text]{
+        width: 50%;
+    }
+    input[type=email]{
+        width: 30%;
+    }
+}
